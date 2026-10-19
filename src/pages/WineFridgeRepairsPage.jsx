@@ -168,9 +168,9 @@ const schema = [
 
 export default function WineFridgeRepairsPage() {
   usePageSeo({
-    title: "Wine Fridge Repairs Sydney | Vintec & Wine Cabinets",
+    title: `Wine Fridge & Wine Cooler Repairs Sydney | ${callOutFee} Call-Out`,
     description:
-      "Wine fridge not cooling or running warm? Sydney repairs for Vintec and other wine cabinets: compressor, thermostat, fan and seal faults, fixed quote first.",
+      `Wine fridge and wine cabinet repairs in Sydney. Vintec and built-in coolers: temperature, compressor and fan faults. ${callOutFee} call-out, fixed quote first.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -466,8 +466,13 @@ export default function WineFridgeRepairsPage() {
             <h2>Wine Fridge Repair Near You in Sydney</h2>
             <p>We repair wine fridges and wine cabinets across 8 Sydney regions:</p>
             <p>
-              Inner West · Western Sydney · North Shore · Northern Beaches · Eastern Suburbs ·
-              Sydney CBD · St George · Sutherland Shire
+              Inner West · <a href="/fridge-repairs/western-sydney/">Western Sydney</a> ·{" "}
+              <a href="/fridge-repairs/north-shore/">North Shore</a> ·{" "}
+              <a href="/fridge-repairs/northern-beaches/">Northern Beaches</a> ·{" "}
+              <a href="/fridge-repairs/eastern-suburbs/">Eastern Suburbs</a> ·{" "}
+              <a href="/fridge-repairs/sydney-cbd/">Sydney CBD</a> ·{" "}
+              <a href="/fridge-repairs/st-george/">St George</a> ·{" "}
+              <a href="/fridge-repairs/sutherland-shire/">Sutherland Shire</a>
             </p>
             <p><a href="/fridge-repairs/">See all suburbs we service →</a></p>
           </div>
