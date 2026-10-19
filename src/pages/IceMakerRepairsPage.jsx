@@ -153,7 +153,7 @@ const iceMakerFaqs = [
   },
   {
     q: "Do I need a plumber or a fridge technician?",
-    a: "If the problem is inside the fridge, such as the valve, ice maker or filter housing, we can fix it. If the household tap or pipework is the cause, a licensed plumber may be needed. We'll tell you honestly.",
+    a: "If the problem is inside the fridge, such as the valve, ice maker or filter housing, we can fix it. If the household tap or pipework is the cause, a licensed plumber may be needed. We'll tell you plainly.",
   },
   {
     q: "How long does an ice maker repair take?",
@@ -161,7 +161,7 @@ const iceMakerFaqs = [
   },
   {
     q: "Do you offer same-day ice maker repair in Sydney?",
-    a: "Same-day appointments may be available depending on your suburb and the day's bookings. Tell us when you enquire and we'll confirm honestly.",
+    a: "Same-day appointments may be available depending on your suburb and the day's bookings. Tell us when you enquire and we'll confirm plainly.",
   },
 ];
 
@@ -203,9 +203,9 @@ const schema = [
 
 export default function IceMakerRepairsPage() {
   usePageSeo({
-    title: "Fridge Ice Maker Repair Sydney – Water Dispensers Too",
+    title: `Ice Maker Repair Sydney | Fridge Ice & Water Faults, ${callOutFee}`,
     description:
-      "Fridge ice maker not making ice or water dispenser not working? We fix fridge ice makers across Sydney. Upfront quotes, same-day help and warranty.",
+      `Fridge ice maker not working or water dispenser leaking? Ice maker repairs across Sydney for Samsung, LG and more. ${callOutFee} call-out, fixed quote first.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -221,7 +221,7 @@ export default function IceMakerRepairsPage() {
         <div className="container">
           <div className="hero__content">
             <p className="eyebrow eyebrow--light">Ice Makers &amp; Water Dispensers</p>
-            <h1>Fridge Ice Maker Repair Sydney: Fix Ice Makers and Water Dispensers Fast</h1>
+            <h1>Fridge Ice Maker Repairs in Sydney</h1>
             <p className="hero__lede">
               You reach for ice on a hot day and the bin is empty. Or you press the water
               dispenser and nothing comes out. We get you back to cold water and plenty of ice.
@@ -396,7 +396,7 @@ export default function IceMakerRepairsPage() {
               Most of the problems we find are inside the fridge. But sometimes the cause is in
               the household plumbing, such as a closed tap, low water pressure or a damaged
               pipe. If the issue is in your home's plumbing, a licensed plumber may be needed,
-              and we'll tell you so honestly. We can check the fridge side and show you where the
+              and we'll tell you so plainly. We can check the fridge side and show you where the
               fault lies, so you don't pay for work you don't need.
             </p>
           </div>
@@ -463,10 +463,26 @@ export default function IceMakerRepairsPage() {
             <h2>Ice Maker and Water Dispenser Repairs Across Sydney</h2>
             <p>We provide fridge ice maker repair across 8 Sydney regions:</p>
             <p>
-              Inner West · Western Sydney · North Shore · Northern Beaches · Eastern Suburbs ·
-              Sydney CBD · St George · Sutherland Shire
+              Inner West · <a href="/fridge-repairs/western-sydney/">Western Sydney</a> ·{" "}
+              <a href="/fridge-repairs/north-shore/">North Shore</a> ·{" "}
+              <a href="/fridge-repairs/northern-beaches/">Northern Beaches</a> ·{" "}
+              <a href="/fridge-repairs/eastern-suburbs/">Eastern Suburbs</a> ·{" "}
+              <a href="/fridge-repairs/sydney-cbd/">Sydney CBD</a> ·{" "}
+              <a href="/fridge-repairs/st-george/">St George</a> ·{" "}
+              <a href="/fridge-repairs/sutherland-shire/">Sutherland Shire</a>
             </p>
-            <p><a href="/fridge-repairs/">See all suburbs we service →</a></p>
+            <p>
+              Suburb pages: <a href="/fridge-repairs/burwood/">Burwood</a>,{" "}
+              <a href="/fridge-repairs/marrickville/">Marrickville</a>,{" "}
+              <a href="/fridge-repairs/strathfield/">Strathfield</a> and{" "}
+              <a href="/fridge-repairs/fridge-repairs-parramatta/">Parramatta</a>.{" "}
+              <a href="/fridge-repairs/">See all suburbs we service →</a>
+            </p>
+            <p>
+              Running a cafe or shop? See our{" "}
+              <a href="/#commercial">commercial fridge repairs</a> and{" "}
+              <a href="/domestic-fridge-repairs-sydney/">domestic fridge repairs</a>.
+            </p>
           </div>
         </div>
       </section>
