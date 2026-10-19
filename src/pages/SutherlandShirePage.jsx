@@ -35,7 +35,7 @@ const suburbAreas = [
 
 const housingRows = [
   { where: "Beachside homes (Cronulla, Greenhills Beach, Kurnell, Burraneer)", problem: "Salt air corrodes condenser coils, fans and electrical contacts, so fridges run hotter and fail sooner", fix: "Clean and treat the coil, replace corroded parts, and show you how to keep the back of the fridge clean" },
-  { where: "Waterfront and canal homes (Sylvania Waters, Dolans Bay, Port Hacking, Oyster Bay, Woronora)", problem: "Humid air and second fridges in boat sheds and garages", fix: "Check ventilation and the sealed system, and advise honestly on age" },
+  { where: "Waterfront and canal homes (Sylvania Waters, Dolans Bay, Port Hacking, Oyster Bay, Woronora)", problem: "Humid air and second fridges in boat sheds and garages", fix: "Check ventilation and the sealed system, and advise plainly on age" },
   { where: "Bushland family homes (Engadine, Menai, Illawong, Heathcote, Barden Ridge)", problem: "Large French door and side-by-side fridges, ice makers and water filters, plus fridges in hot garages", fix: "Check the water line, drain and sealed system" },
   { where: "Older homes and units (Sutherland, Miranda, Caringbah, Gymea)", problem: "Older fridges and freezers running past their best, often as a second fridge", fix: "Diagnose before replacing" },
   { where: "Cafes, clubs and food shops (Cronulla, Kirrawee, Miranda, Caringbah, Taren Point)", problem: "Fridges and coolrooms that run all day, plus fish, bakery and butcher cabinets", fix: "Fast diagnosis to protect stock" },
@@ -120,7 +120,7 @@ const sutherlandShireFaqs = [
   },
   {
     q: "Is it worth repairing my fridge?",
-    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you honestly.",
+    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you plainly.",
   },
 ];
 
@@ -160,9 +160,9 @@ const schema = [
 
 export default function SutherlandShirePage() {
   usePageSeo({
-    title: "Fridge Repairs Sutherland Shire | Local Technician",
+    title: "Fridge Repairs Sutherland Shire | Cronulla to Sutherland",
     description:
-      "Fridge repairs across the Sutherland Shire, from Cronulla and Miranda to Menai and Engadine. Local technician, fixed quote before any work starts.",
+      `Fridge, freezer and commercial refrigeration repairs in the Sutherland Shire: Cronulla, Miranda, Sutherland, Caringbah. ${callOutFee} call-out, fixed quote first.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -178,14 +178,14 @@ export default function SutherlandShirePage() {
         <div className="container">
           <div className="hero__content">
             <p className="eyebrow eyebrow--light">Sutherland Shire</p>
-            <h1>Fridge Repairs in the Sutherland Shire: Local Technician</h1>
+            <h1>Fridge Repairs in the Sutherland Shire</h1>
             <p className="hero__lede">
               Fridge gone warm in Cronulla, Miranda, Caringbah or Engadine? We repair fridges,
               freezers and commercial refrigeration across the Sutherland Shire, from Kurnell and
               Cronulla to Heathcote and Waterfall, for homes, cafes, clubs and food shops.
             </p>
             <p className="hero__sub">
-              You get a fixed quote before any work starts, and we'll tell you honestly if a
+              You get a fixed quote before any work starts, and we'll tell you plainly if a
               repair isn't worth it.
             </p>
             <div className="hero__actions">
@@ -263,6 +263,12 @@ export default function SutherlandShirePage() {
             Royal National Park or the Cronulla ferry, so tell us when you call and we'll plan
             the trip.
           </p>
+          <p className="hub-suburbs__note">
+            Nearby: <a href="/fridge-repairs/st-george/">St George</a> and <a href="/fridge-repairs/eastern-suburbs/">Eastern Suburbs</a>. Also see our{" "}
+            <a href="/domestic-fridge-repairs-sydney/">domestic</a> and{" "}
+            <a href="/same-day-fridge-repair-sydney/">same-day</a> fridge repair pages.
+          </p>
+
           <p className="hub-suburbs__note">
             Working further out? See{" "}
             <a href="/fridge-repairs/">all Sydney areas we service →</a>

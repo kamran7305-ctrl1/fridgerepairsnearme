@@ -37,7 +37,7 @@ const housingRows = [
   { where: "Harbourside apartments (Kirribilli, Neutral Bay, Cremorne, McMahons Point)", problem: "Integrated fridges behind cabinetry, strata rules, lift bookings and limited parking", fix: "Careful diagnosis, minimal panel removal, and we confirm access before we arrive" },
   { where: "High-rise towers (North Sydney, Chatswood, Macquarie Park)", problem: "Tight time windows, loading docks and building managers", fix: "Confirm timing and access in advance so the job runs smoothly" },
   { where: "Premium homes (Mosman, Balmoral, Castlecrag, Hunters Hill)", problem: "European and integrated fridges from Miele, Smeg, ILVE and Bosch with specialist parts", fix: "Diagnose first, so we only replace what has failed" },
-  { where: "Large family homes (Pymble, Killara, Lindfield, Turramurra, Wahroonga, St Ives)", problem: "Big French door and side-by-side fridges, plus second fridges and wine fridges in garages and cellars that run hot", fix: "Check ventilation and the sealed system, and advise honestly on age" },
+  { where: "Large family homes (Pymble, Killara, Lindfield, Turramurra, Wahroonga, St Ives)", problem: "Big French door and side-by-side fridges, plus second fridges and wine fridges in garages and cellars that run hot", fix: "Check ventilation and the sealed system, and advise plainly on age" },
   { where: "Cafes, restaurants and offices (Crows Nest, Chatswood, Mosman, Macquarie Park)", problem: "Fridges that run all day and warm during service, plus office and kitchen fridges", fix: "Fast diagnosis to protect stock" },
 ];
 
@@ -92,7 +92,7 @@ const bookingSteps = [
 const northShoreFaqs = [
   {
     q: "Do you offer same-day fridge repairs on the North Shore?",
-    a: "Same-day visits may be available depending on your suburb and the day's bookings. Tell us when you enquire and we'll confirm honestly, including if the next available slot is the better option.",
+    a: "Same-day visits may be available depending on your suburb and the day's bookings. Tell us when you enquire and we'll confirm plainly, including if the next available slot is the better option.",
   },
   {
     q: "Do you cover both the Lower and Upper North Shore?",
@@ -120,7 +120,7 @@ const northShoreFaqs = [
   },
   {
     q: "Is it worth repairing my fridge?",
-    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you honestly.",
+    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you plainly.",
   },
 ];
 
@@ -160,9 +160,9 @@ const schema = [
 
 export default function NorthShorePage() {
   usePageSeo({
-    title: "Fridge Repairs North Shore | Local Technician",
+    title: "Fridge Repairs North Shore Sydney | Chatswood & Mosman",
     description:
-      "Fridge repairs across the North Shore, from Mosman and North Sydney to Chatswood and Pymble. Local technician, fixed quote before any work starts.",
+      `Fridge and freezer repairs across Sydney's North Shore: Chatswood, Mosman, Lane Cove, North Sydney, Pymble. ${callOutFee} call-out, fixed quote first.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -178,14 +178,14 @@ export default function NorthShorePage() {
         <div className="container">
           <div className="hero__content">
             <p className="eyebrow eyebrow--light">North Shore</p>
-            <h1>Fridge Repairs on the North Shore: Local Technician</h1>
+            <h1>Fridge Repairs on Sydney's North Shore</h1>
             <p className="hero__lede">
               Fridge gone warm in Mosman, North Sydney, Chatswood or Pymble? We repair fridges,
               freezers and commercial refrigeration across the Lower and Upper North Shore, for
               houses, apartments, cafes and offices.
             </p>
             <p className="hero__sub">
-              You get a fixed quote before any work starts, and we'll tell you honestly if a
+              You get a fixed quote before any work starts, and we'll tell you plainly if a
               repair isn't worth it.
             </p>
             <div className="hero__actions">
@@ -217,7 +217,7 @@ export default function NorthShorePage() {
           <div className="card highlight-card">
             <p>
               Same-day visits may be available depending on your suburb and the day's bookings —
-              tell us when you enquire and we'll confirm honestly, even if that means the next
+              tell us when you enquire and we'll confirm plainly, even if that means the next
               available slot instead. If the fridge is full of food or stock, tell us when you
               call and we'll prioritise it where possible. See our{" "}
               <a href="/same-day-fridge-repair-sydney/">same-day fridge repair page</a>.
@@ -256,6 +256,12 @@ export default function NorthShorePage() {
               </tbody>
             </table>
           </div>
+
+          <p className="hub-suburbs__note">
+            Nearby: <a href="/fridge-repairs/northern-beaches/">Northern Beaches</a> and <a href="/fridge-repairs/sydney-cbd/">Sydney CBD</a>. Also see our{" "}
+            <a href="/domestic-fridge-repairs-sydney/">domestic</a> and{" "}
+            <a href="/same-day-fridge-repair-sydney/">same-day</a> fridge repair pages.
+          </p>
 
           <p className="hub-suburbs__note">
             Working further out? See{" "}

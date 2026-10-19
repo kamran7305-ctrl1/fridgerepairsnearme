@@ -35,7 +35,7 @@ const suburbAreas = [
 
 const housingRows = [
   { where: "Apartment towers (Hurstville, Kogarah, Rockdale, Wolli Creek)", problem: "Tight time windows, lift bookings, loading docks, and fridges squeezed into small recesses with poor airflow", fix: "Confirm access and timing beforehand, check clearances and ventilation as well as the fridge" },
-  { where: "Post-war and Federation homes (Bexley, Penshurst, Beverly Hills, Mortdale, Allawah)", problem: "Older second fridges and freezers running in garages and sunrooms", fix: "Diagnose before replacing, and advise honestly on age" },
+  { where: "Post-war and Federation homes (Bexley, Penshurst, Beverly Hills, Mortdale, Allawah)", problem: "Older second fridges and freezers running in garages and sunrooms", fix: "Diagnose before replacing, and advise plainly on age" },
   { where: "Riverside and bayside homes (Oatley, Lugarno, Sans Souci, Dolls Point, Brighton-Le-Sands)", problem: "Humid, salty air near the Georges River and Botany Bay, which corrodes coils and fans", fix: "Clean and treat the coil, replace corroded parts, and show you how to keep the back of the fridge clean" },
   { where: "Large family homes and duplexes (Peakhurst, Blakehurst, Kingsgrove, Roselands)", problem: "Big French door and side-by-side fridges with ice makers and water filters", fix: "Check the water line, drain and sealed system" },
   { where: "Restaurants, bakeries and shops (Forest Road Hurstville, Rocky Point Road, Princes Highway, Grand Parade)", problem: "Fridges, display cabinets and coolrooms that run all day and warm during service", fix: "Fast diagnosis to protect stock" },
@@ -96,7 +96,7 @@ const stGeorgeFaqs = [
   },
   {
     q: "Do you offer same-day fridge repairs in St George?",
-    a: "Same-day visits may be available depending on your suburb and the day's bookings. Tell us when you enquire and we'll confirm honestly, including if the next available slot is the better option.",
+    a: "Same-day visits may be available depending on your suburb and the day's bookings. Tell us when you enquire and we'll confirm plainly, including if the next available slot is the better option.",
   },
   {
     q: "How much does a fridge repair cost in St George?",
@@ -120,7 +120,7 @@ const stGeorgeFaqs = [
   },
   {
     q: "Is it worth repairing my fridge?",
-    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you honestly.",
+    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you plainly.",
   },
 ];
 
@@ -160,9 +160,9 @@ const schema = [
 
 export default function StGeorgePage() {
   usePageSeo({
-    title: "Fridge Repairs St George | Local Technician",
+    title: "Fridge Repairs St George Sydney | Hurstville & Kogarah",
     description:
-      "Fridge repairs across St George, from Hurstville and Kogarah to Rockdale and Brighton-Le-Sands. Local technician, fixed quote before any work starts.",
+      `Fridge and freezer repairs in St George: Hurstville, Kogarah, Rockdale, Mortdale, Bexley and Banksia. ${callOutFee} call-out, fixed quote first, ${warrantyPeriod} warranty.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -178,14 +178,14 @@ export default function StGeorgePage() {
         <div className="container">
           <div className="hero__content">
             <p className="eyebrow eyebrow--light">St George</p>
-            <h1>Fridge Repairs in St George: Local Technician</h1>
+            <h1>Fridge Repairs in St George</h1>
             <p className="hero__lede">
               Fridge gone warm in Hurstville, Kogarah, Rockdale or Brighton-Le-Sands? We repair
               fridges, freezers and commercial refrigeration across the St George area of Sydney,
               the suburbs between the Georges River and Botany Bay.
             </p>
             <p className="hero__sub">
-              You get a fixed quote before any work starts, and we'll tell you honestly if a
+              You get a fixed quote before any work starts, and we'll tell you plainly if a
               repair isn't worth it.
             </p>
             <div className="hero__actions">
@@ -217,7 +217,7 @@ export default function StGeorgePage() {
           <div className="card highlight-card">
             <p>
               Same-day visits may be available depending on your suburb and the day's bookings —
-              tell us when you enquire and we'll confirm honestly, even if that means the next
+              tell us when you enquire and we'll confirm plainly, even if that means the next
               available slot instead. If the fridge is full of food or stock, tell us when you
               call and we'll prioritise it where possible. See our{" "}
               <a href="/same-day-fridge-repair-sydney/">same-day fridge repair page</a>.
@@ -256,6 +256,12 @@ export default function StGeorgePage() {
               </tbody>
             </table>
           </div>
+
+          <p className="hub-suburbs__note">
+            Nearby: <a href="/fridge-repairs/sutherland-shire/">Sutherland Shire</a> and <a href="/fridge-repairs/eastern-suburbs/">Eastern Suburbs</a>. Also see our{" "}
+            <a href="/domestic-fridge-repairs-sydney/">domestic</a> and{" "}
+            <a href="/same-day-fridge-repair-sydney/">same-day</a> fridge repair pages.
+          </p>
 
           <p className="hub-suburbs__note">
             Working further out? See{" "}

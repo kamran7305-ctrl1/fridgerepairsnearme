@@ -94,7 +94,7 @@ const bookingSteps = [
 const easternFaqs = [
   {
     q: "Do you offer same-day fridge repairs in the Eastern Suburbs?",
-    a: "Same-day visits may be available depending on your suburb and the day's bookings. Tell us when you enquire and we'll confirm honestly, including if the next available slot is the better option.",
+    a: "Same-day visits may be available depending on your suburb and the day's bookings. Tell us when you enquire and we'll confirm plainly, including if the next available slot is the better option.",
   },
   {
     q: "Which Eastern Suburbs areas do you cover?",
@@ -122,7 +122,7 @@ const easternFaqs = [
   },
   {
     q: "Is it worth repairing my fridge?",
-    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you honestly.",
+    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you plainly.",
   },
 ];
 
@@ -162,9 +162,9 @@ const schema = [
 
 export default function EasternSuburbsPage() {
   usePageSeo({
-    title: "Fridge Repairs Eastern Suburbs | Local Technician",
+    title: "Fridge Repairs Eastern Suburbs | Bondi, Randwick & Coogee",
     description:
-      "Fridge repairs across the Eastern Suburbs, from Bondi to Maroubra and Double Bay to Randwick. Local technician, fixed quote before any work starts.",
+      `Fridge repair technician in Sydney's Eastern Suburbs: Bondi, Randwick, Coogee, Paddington, Double Bay. ${callOutFee} call-out, fixed quote first, ${warrantyPeriod} warranty.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -180,14 +180,14 @@ export default function EasternSuburbsPage() {
         <div className="container">
           <div className="hero__content">
             <p className="eyebrow eyebrow--light">Eastern Suburbs</p>
-            <h1>Fridge Repairs in the Eastern Suburbs: Local Technician</h1>
+            <h1>Fridge Repairs in the Eastern Suburbs</h1>
             <p className="hero__lede">
               Fridge stopped cooling in Bondi, Randwick, Double Bay or anywhere in between? We
               repair fridges, freezers and commercial refrigeration across the Eastern Suburbs,
               for homes, apartments, cafes and restaurants.
             </p>
             <p className="hero__sub">
-              You get a fixed quote before any work starts, and we'll tell you honestly if a
+              You get a fixed quote before any work starts, and we'll tell you plainly if a
               repair isn't worth it.
             </p>
             <div className="hero__actions">
@@ -219,7 +219,7 @@ export default function EasternSuburbsPage() {
           <div className="card highlight-card">
             <p>
               Same-day visits may be available depending on your suburb and the day's bookings —
-              tell us when you enquire and we'll confirm honestly, even if that means the next
+              tell us when you enquire and we'll confirm plainly, even if that means the next
               available slot instead. If the fridge is full of food or stock, tell us when you
               call and we'll prioritise it where possible. See our{" "}
               <a href="/same-day-fridge-repair-sydney/">same-day fridge repair page</a>.
@@ -257,6 +257,12 @@ export default function EasternSuburbsPage() {
               </tbody>
             </table>
           </div>
+
+          <p className="hub-suburbs__note">
+            Nearby: <a href="/fridge-repairs/sydney-cbd/">Sydney CBD</a> and <a href="/fridge-repairs/st-george/">St George</a>. Also see our{" "}
+            <a href="/domestic-fridge-repairs-sydney/">domestic</a> and{" "}
+            <a href="/same-day-fridge-repair-sydney/">same-day</a> fridge repair pages.
+          </p>
 
           <p className="hub-suburbs__note">
             Working in the city or further out? See{" "}
