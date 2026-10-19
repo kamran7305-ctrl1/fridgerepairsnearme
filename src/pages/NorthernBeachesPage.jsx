@@ -37,7 +37,7 @@ const housingRows = [
   { where: "Beachfront homes and apartments (Manly, Dee Why, Collaroy, Narrabeen, Palm Beach)", problem: "Salt air corrodes condenser coils, fans and electrical contacts, so fridges run hotter and fail sooner", fix: "Clean and treat the coil, replace corroded parts, and show you how to keep the back of the fridge clean" },
   { where: "Holiday homes (Palm Beach, Whale Beach, Pittwater)", problem: "Fridges that sit unused for weeks, then fail when switched on, or run in humid, unventilated kitchens", fix: "Check the seals, drain and sealed system, and advise before you stock it" },
   { where: "Premium and integrated kitchens (Newport, Avalon, Bilgola, Clareville)", problem: "Built-in and integrated fridges with specialist parts", fix: "Careful diagnosis, minimal panel removal, and we quote the whole job" },
-  { where: "Hills and bushland homes (Belrose, Frenchs Forest, Terrey Hills, Elanora Heights)", problem: "Large family fridges and second fridges in hot garages", fix: "Check ventilation and the sealed system, and advise honestly on age" },
+  { where: "Hills and bushland homes (Belrose, Frenchs Forest, Terrey Hills, Elanora Heights)", problem: "Large family fridges and second fridges in hot garages", fix: "Check ventilation and the sealed system, and advise plainly on age" },
   { where: "Cafes, clubs and pubs (Manly Corso, Dee Why, Mona Vale, Avalon, Brookvale)", problem: "Fridges and coolrooms that work flat out in summer, with salt air making it worse", fix: "Fast diagnosis to protect stock" },
 ];
 
@@ -120,7 +120,7 @@ const northernBeachesFaqs = [
   },
   {
     q: "Is it worth repairing my fridge?",
-    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you honestly.",
+    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you plainly.",
   },
 ];
 
@@ -160,9 +160,9 @@ const schema = [
 
 export default function NorthernBeachesPage() {
   usePageSeo({
-    title: "Fridge Repairs Northern Beaches | Local Technician",
+    title: "Fridge Repairs Northern Beaches | Manly to Palm Beach",
     description:
-      "Fridge repairs across the Northern Beaches, from Manly and Dee Why to Mona Vale and Avalon. Local technician, fixed quote before any work starts.",
+      `Fridge, freezer and coolroom repairs on the Northern Beaches: Manly, Dee Why, Brookvale, Mona Vale. ${callOutFee} call-out, fixed quote first, ${warrantyPeriod} warranty.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -178,14 +178,14 @@ export default function NorthernBeachesPage() {
         <div className="container">
           <div className="hero__content">
             <p className="eyebrow eyebrow--light">Northern Beaches</p>
-            <h1>Fridge Repairs on the Northern Beaches: Local Technician</h1>
+            <h1>Fridge Repairs on the Northern Beaches</h1>
             <p className="hero__lede">
               Fridge gone warm in Manly, Dee Why, Mona Vale or Avalon? We repair fridges, freezers
               and commercial refrigeration across the Northern Beaches, from Balgowlah and
               Seaforth to Palm Beach, for homes, apartments, cafes and clubs.
             </p>
             <p className="hero__sub">
-              You get a fixed quote before any work starts, and we'll tell you honestly if a
+              You get a fixed quote before any work starts, and we'll tell you plainly if a
               repair isn't worth it.
             </p>
             <div className="hero__actions">
@@ -257,6 +257,12 @@ export default function NorthernBeachesPage() {
               </tbody>
             </table>
           </div>
+
+          <p className="hub-suburbs__note">
+            Nearby: <a href="/fridge-repairs/north-shore/">North Shore</a> and <a href="/fridge-repairs/sydney-cbd/">Sydney CBD</a>. Also see our{" "}
+            <a href="/domestic-fridge-repairs-sydney/">domestic</a> and{" "}
+            <a href="/same-day-fridge-repair-sydney/">same-day</a> fridge repair pages.
+          </p>
 
           <p className="hub-suburbs__note">
             Working further out? See{" "}
