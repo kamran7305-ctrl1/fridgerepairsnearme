@@ -34,7 +34,7 @@ const suburbAreas = [
 
 const housingRows = [
   { where: "High-rise apartments (Haymarket, Barangaroo, Pyrmont, Zetland, Waterloo)", problem: "Lift bookings, concierge approval, tight time windows and fridges squeezed into small recesses with poor airflow", fix: "Agree a time with you and the building first, and check clearances and ventilation as well as the fridge" },
-  { where: "Art Deco and heritage apartments (Potts Point, Elizabeth Bay, Millers Point)", problem: "Older blocks with narrow lifts and stairs, and older fridges", fix: "Bring the right tools, protect floors, and advise honestly on age" },
+  { where: "Art Deco and heritage apartments (Potts Point, Elizabeth Bay, Millers Point)", problem: "Older blocks with narrow lifts and stairs, and older fridges", fix: "Bring the right tools, protect floors, and advise plainly on age" },
   { where: "Terraces and warehouse conversions (Surry Hills, Darlinghurst, Redfern, Chippendale, Alexandria)", problem: "Integrated fridges behind cabinetry, tight access and street parking limits", fix: "Careful diagnosis and minimal panel removal" },
   { where: "Cafes, bars and restaurants (Surry Hills, The Rocks, Darling Harbour, Barangaroo, Darlinghurst)", problem: "Fridges and coolrooms that work all day, with tight loading windows and no storage for stock", fix: "Fast diagnosis to protect stock" },
   { where: "Offices, hotels and shops (Martin Place, George Street, Pitt Street, Ultimo)", problem: "Office kitchen fridges, bar fridges and convenience store cabinets", fix: "Quick, tidy repairs outside peak hours where we can" },
@@ -119,7 +119,7 @@ const sydneyCbdFaqs = [
   },
   {
     q: "Is it worth repairing my fridge?",
-    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you honestly.",
+    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you plainly.",
   },
 ];
 
@@ -159,9 +159,9 @@ const schema = [
 
 export default function SydneyCbdPage() {
   usePageSeo({
-    title: "Fridge Repairs Sydney CBD | Local Technician",
+    title: "Fridge Repairs Sydney CBD | Cafes, Offices & Apartments",
     description:
-      "Fridge repairs across the Sydney CBD, from Haymarket and Barangaroo to Surry Hills and Pyrmont. Local technician, fixed quote before any work starts.",
+      `Fridge and commercial refrigeration repairs in the Sydney CBD: Surry Hills, Pyrmont, Haymarket, Ultimo. ${callOutFee} call-out, fixed quote first.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -177,7 +177,7 @@ export default function SydneyCbdPage() {
         <div className="container">
           <div className="hero__content">
             <p className="eyebrow eyebrow--light">Sydney CBD</p>
-            <h1>Fridge Repairs in the Sydney CBD: Local Technician</h1>
+            <h1>Fridge Repairs in the Sydney CBD</h1>
             <p className="hero__lede">
               Fridge gone warm in a Haymarket apartment, a Surry Hills cafe or a bar near
               Circular Quay? We repair fridges, freezers and commercial refrigeration across the
@@ -185,7 +185,7 @@ export default function SydneyCbdPage() {
               Hills and Zetland.
             </p>
             <p className="hero__sub">
-              You get a fixed quote before any work starts, and we'll tell you honestly if a
+              You get a fixed quote before any work starts, and we'll tell you plainly if a
               repair isn't worth it.
             </p>
             <div className="hero__actions">
@@ -255,6 +255,14 @@ export default function SydneyCbdPage() {
               </tbody>
             </table>
           </div>
+
+          <p className="hub-suburbs__note">
+            Nearby: <a href="/fridge-repairs/eastern-suburbs/">Eastern Suburbs</a>,{" "}
+            <a href="/fridge-repairs/marrickville/">Marrickville</a> and{" "}
+            <a href="/fridge-repairs/st-george/">St George</a>. Cafe or office fridge? See{" "}
+            <a href="/#commercial">commercial fridge repairs</a> and{" "}
+            <a href="/display-fridge-repairs-sydney/">display fridge repairs</a>.
+          </p>
 
           <p className="hub-suburbs__note">
             Working further out? See{" "}
