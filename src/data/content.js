@@ -13,7 +13,7 @@ export const warrantyPeriod = "1-year";
 // Used by the footer, which lists every page as a flat set of links.
 export const navLinks = [
   { label: "Domestic", href: "/domestic-fridge-repairs-sydney/" },
-  { label: "Commercial", href: "/#commercial" },
+  { label: "Commercial", href: "/commercial-fridge-repairs-sydney/" },
   { label: "Same Day Repairs", href: "/same-day-fridge-repair-sydney/" },
   { label: "Wine Fridge Repairs", href: "/wine-fridge-repairs-sydney/" },
   { label: "Display Fridge Repairs", href: "/display-fridge-repairs-sydney/" },
@@ -42,7 +42,7 @@ export const headerNavItems = [
     label: "Fridge Repair Services",
     items: [
       { label: "Domestic", href: "/domestic-fridge-repairs-sydney/" },
-      { label: "Commercial", href: "/#commercial" },
+      { label: "Commercial", href: "/commercial-fridge-repairs-sydney/" },
       { label: "Same Day Repairs", href: "/same-day-fridge-repair-sydney/" },
       { label: "Wine Fridge Repairs", href: "/wine-fridge-repairs-sydney/" },
       { label: "Display Fridge Repairs", href: "/display-fridge-repairs-sydney/" },

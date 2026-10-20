@@ -44,7 +44,7 @@ const hubServices = [
     icon: BuildingIcon,
     title: "Commercial Refrigeration Repairs",
     text: "Upright and underbench fridges, prep and makeline units, display and glass-door fridges for cafes, restaurants and retail.",
-    href: "/#commercial",
+    href: "/commercial-fridge-repairs-sydney/",
   },
   {
     icon: SnowflakeIcon,
