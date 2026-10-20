@@ -140,9 +140,9 @@ const schema = [
 
 export default function ContactPage() {
   usePageSeo({
-    title: "Contact Fridge Repairs Near Me | Book Online 24/7",
+    title: "Contact Fridge Repairs Near Me Sydney | Book a Technician",
     description:
-      "Contact Fridge Repairs Near Me for fridge, freezer and coolroom repairs across Sydney. Enquire online 24/7, $69 call-out and a free quote before any work.",
+      `Request a quote for fridge, freezer and coolroom repairs across Sydney. ${callOutFee} call-out, fixed quote first, ${warrantyPeriod} warranty. Email or use the form.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -158,7 +158,7 @@ export default function ContactPage() {
         <div className="container">
           <div className="hero__content">
             <p className="eyebrow eyebrow--light">Get In Touch</p>
-            <h1>Contact Fridge Repairs Near Me</h1>
+            <h1>Contact Us: Book Your Fridge Repair</h1>
             <p className="hero__lede">
               Need a fridge fixed? We take enquiries across Sydney around the clock — send the
               form below or email us, and a local technician will get back to you with a free

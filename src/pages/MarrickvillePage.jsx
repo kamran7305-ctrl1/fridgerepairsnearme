@@ -140,7 +140,7 @@ const marrickvilleFaqs = [
   },
   {
     q: "Is it worth repairing an older fridge?",
-    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For fridges over 10 years old with a major fault, replacement can be cheaper, and we'll tell you honestly after diagnosis rather than sell you a repair that won't last.",
+    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For fridges over 10 years old with a major fault, replacement can be cheaper, and we'll tell you plainly after diagnosis rather than sell you a repair that won't last.",
   },
 ];
 
@@ -231,7 +231,7 @@ export default function MarrickvillePage() {
               refrigeration across Marrickville and the Inner West suburbs around it.
             </p>
             <p className="hero__sub">
-              You get a fixed quote before any work starts, and we'll tell you honestly if a
+              You get a fixed quote before any work starts, and we'll tell you plainly if a
               repair isn't worth it.
             </p>
             <div className="hero__actions">
@@ -305,6 +305,10 @@ export default function MarrickvillePage() {
               </tbody>
             </table>
           </div>
+
+          <p className="hub-suburbs__note">
+            Nearby: <a href="/fridge-repairs/burwood/">Burwood</a>, <a href="/fridge-repairs/strathfield/">Strathfield</a> and <a href="/fridge-repairs/eastern-suburbs/">Eastern Suburbs</a>.
+          </p>
 
           <p className="hub-suburbs__note">
             Working further out? See{" "}

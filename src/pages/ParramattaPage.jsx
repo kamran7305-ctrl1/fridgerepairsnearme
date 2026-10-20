@@ -307,6 +307,10 @@ export default function ParramattaPage() {
           </div>
 
           <p className="hub-suburbs__note">
+            Nearby: <a href="/fridge-repairs/strathfield/">Strathfield</a>, <a href="/fridge-repairs/burwood/">Burwood</a> and the <a href="/domestic-fridge-repairs-sydney/">domestic fridge repairs</a> page.
+          </p>
+
+          <p className="hub-suburbs__note">
             Working further out? See{" "}
             <a href="/fridge-repairs/western-sydney/">fridge repairs across Western Sydney</a>{" "}
             or <a href="/fridge-repairs/">all Sydney areas we service →</a>

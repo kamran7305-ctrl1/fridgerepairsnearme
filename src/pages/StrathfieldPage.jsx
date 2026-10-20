@@ -196,7 +196,7 @@ const schema = [
 
 export default function StrathfieldPage() {
   usePageSeo({
-    title: `Fridge Repairs Strathfield | ${callOutFee} Call-Out, Same-Day Help`,
+    title: `Fridge Repairs Strathfield | ${callOutFee} Call-Out, Fixed Quote`,
     description: `Fridge not cooling in Strathfield? Local technician, ${callOutFee} call-out, same-day visits where available, fixed quote first and a ${warrantyPeriod} warranty on parts.`,
     canonical: CANONICAL_URL,
     schema,
@@ -357,7 +357,9 @@ export default function StrathfieldPage() {
           </div>
 
           <p className="hub-suburbs__note">
-            Next door: <a href="/fridge-repairs/burwood/">Burwood fridge repairs</a> or{" "}
+            Next door: <a href="/fridge-repairs/burwood/">Burwood</a>,{" "}
+            <a href="/fridge-repairs/marrickville/">Marrickville</a> and{" "}
+            <a href="/fridge-repairs/fridge-repairs-parramatta/">Parramatta</a>, or{" "}
             <a href="/fridge-repairs/">all Sydney areas we service →</a>
           </p>
         </div>

@@ -8,8 +8,8 @@ export default function BlogIndexPage() {
   const [status, setStatus] = useState("loading");
 
   usePageSeo({
-    title: "Fridge Care Guides & Advice | Fridge Repairs Near Me",
-    description: "Practical, no-nonsense reading on fridge and freezer faults, maintenance and repair-or-replace decisions from Fridge Repairs Near Me.",
+    title: "Fridge Repair Tips & Guides | Fridge Repairs Near Me",
+    description: "Practical fridge and freezer guides: why fridges stop cooling, when to repair or replace, and maintenance tips from Fridge Repairs Near Me.",
     canonical: "https://fridgerepairsnearme.com.au/blog",
   });
 
@@ -28,7 +28,7 @@ export default function BlogIndexPage() {
       <div className="container">
         <div className="section-head section-head--center">
           <p className="eyebrow" style={{ justifyContent: "center" }}>From the Blog</p>
-          <h1>Fridge Care Guides &amp; Advice</h1>
+          <h1>Fridge Repair Tips &amp; Guides</h1>
           <p>
             Practical, no-nonsense reading on fridge and freezer faults, maintenance and
             repair-or-replace decisions — new articles are added regularly.

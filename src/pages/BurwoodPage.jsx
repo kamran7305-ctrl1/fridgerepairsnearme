@@ -140,7 +140,7 @@ const burwoodFaqs = [
   },
   {
     q: "Is it worth repairing an older fridge?",
-    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For fridges over 10 years old with a major fault, replacement can be cheaper, and we'll tell you honestly after diagnosis rather than sell you a repair that won't last.",
+    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For fridges over 10 years old with a major fault, replacement can be cheaper, and we'll tell you plainly after diagnosis rather than sell you a repair that won't last.",
   },
 ];
 
@@ -207,9 +207,9 @@ const schema = [
 
 export default function BurwoodPage() {
   usePageSeo({
-    title: "Fridge Repairs Burwood | Local Technician, Fixed Quote",
+    title: `Fridge Repairs Burwood | ${callOutFee} Call-Out, Fixed Quote`,
     description:
-      "Fridge repairs in Burwood NSW 2134 for homes, apartments and Burwood Road businesses. Local technician, same-day visits where available, fixed quote first.",
+      `Fridge repairs in Burwood NSW 2134 for homes, apartments and Burwood Road businesses. ${callOutFee} call-out, fixed quote first, ${warrantyPeriod} warranty.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -225,14 +225,14 @@ export default function BurwoodPage() {
         <div className="container">
           <div className="hero__content">
             <p className="eyebrow eyebrow--light">Burwood NSW 2134</p>
-            <h1>Fridge Repairs in Burwood: Local Technician, Fixed Quote First</h1>
+            <h1>Fridge Repairs in Burwood: Fixed Quote First</h1>
             <p className="hero__lede">
               Fridge gone warm in a flat near Burwood station, a family kitchen in Burwood
               Heights or a restaurant kitchen on Burwood Road? We repair fridges, freezers and
               commercial refrigeration across Burwood and the Inner West suburbs around it.
             </p>
             <p className="hero__sub">
-              You get a fixed quote before any work starts, and we'll tell you honestly if a
+              You get a fixed quote before any work starts, and we'll tell you plainly if a
               repair isn't worth it.
             </p>
             <div className="hero__actions">
@@ -306,6 +306,10 @@ export default function BurwoodPage() {
               </tbody>
             </table>
           </div>
+
+          <p className="hub-suburbs__note">
+            Nearby: <a href="/fridge-repairs/strathfield/">Strathfield</a>, <a href="/fridge-repairs/marrickville/">Marrickville</a> and <a href="/fridge-repairs/fridge-repairs-parramatta/">Parramatta</a>.
+          </p>
 
           <p className="hub-suburbs__note">
             Working further out? See{" "}
