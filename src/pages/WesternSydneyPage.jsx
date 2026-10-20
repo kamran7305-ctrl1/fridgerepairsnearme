@@ -35,7 +35,7 @@ const suburbAreas = [
 ];
 
 const housingRows = [
-  { where: "Summer heat (most of Western Sydney)", problem: "Temperatures several degrees above the coast make fridges and freezers work harder, especially in garages, granny flats and enclosed patios", fix: "Check ventilation and the condenser, and advise honestly on age" },
+  { where: "Summer heat (most of Western Sydney)", problem: "Temperatures several degrees above the coast make fridges and freezers work harder, especially in garages, granny flats and enclosed patios", fix: "Check ventilation and the condenser, and advise plainly on age" },
   { where: "Large family homes (Merrylands, Greystanes, Fairfield, Castle Hill, Baulkham Hills)", problem: "Big French door and side-by-side fridges with ice makers and water filters, plus a second fridge or chest freezer in the garage", fix: "Check the water line, drain and sealed system" },
   { where: "Apartments (Parramatta CBD, Auburn, Bankstown, Westmead, Wentworthville)", problem: "Tight access, lift bookings, loading docks and fridges in small recesses with poor airflow", fix: "Agree a time with you and the building first, and check clearances and ventilation" },
   { where: "Storms and power surges", problem: "Power cuts and surges can damage control boards and spoil food", fix: "Test the board and power supply, and advise on surge protection" },
@@ -122,7 +122,7 @@ const westernSydneyFaqs = [
   },
   {
     q: "Is it worth repairing my fridge?",
-    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you honestly.",
+    a: "Usually, if it's under about 8 years old and the fault isn't the compressor. For older fridges with a major fault, replacement may be cheaper, and we'll tell you plainly.",
   },
 ];
 
@@ -162,9 +162,9 @@ const schema = [
 
 export default function WesternSydneyPage() {
   usePageSeo({
-    title: "Fridge Repairs Western Sydney | Local Technician",
+    title: "Fridge Repairs Western Sydney | Bankstown to Penrith",
     description:
-      "Fridge repairs across Western Sydney, from Parramatta and Auburn to Bankstown and Blacktown. Local technician, fixed quote before any work starts.",
+      `Fridge and commercial refrigeration repairs across Western Sydney: Parramatta, Bankstown, Blacktown and Penrith. ${callOutFee} call-out, fixed quote first.`,
     canonical: CANONICAL_URL,
     schema,
   });
@@ -180,14 +180,14 @@ export default function WesternSydneyPage() {
         <div className="container">
           <div className="hero__content">
             <p className="eyebrow eyebrow--light">Western Sydney</p>
-            <h1>Fridge Repairs in Western Sydney: Local Technician</h1>
+            <h1>Fridge Repairs in Western Sydney</h1>
             <p className="hero__lede">
               Fridge gone warm in Parramatta, Auburn, Bankstown or Merrylands? We repair fridges,
               freezers and commercial refrigeration across Western Sydney, for homes, granny
               flats, cafes, restaurants and warehouses.
             </p>
             <p className="hero__sub">
-              You get a fixed quote before any work starts, and we'll tell you honestly if a
+              You get a fixed quote before any work starts, and we'll tell you plainly if a
               repair isn't worth it.
             </p>
             <div className="hero__actions">
@@ -404,6 +404,14 @@ export default function WesternSydneyPage() {
               </tbody>
             </table>
           </div>
+
+          <p className="hub-suburbs__note">
+            Nearby: <a href="/fridge-repairs/fridge-repairs-parramatta/">Parramatta</a>,{" "}
+            <a href="/fridge-repairs/strathfield/">Strathfield</a> and{" "}
+            <a href="/fridge-repairs/burwood/">Burwood</a>. Also see our{" "}
+            <a href="/domestic-fridge-repairs-sydney/">domestic</a> and{" "}
+            <a href="/same-day-fridge-repair-sydney/">same-day</a> fridge repair pages.
+          </p>
 
           <p className="hub-suburbs__note">
             Note: general Sydney market guide, not our prices. Prices change over time. Our
