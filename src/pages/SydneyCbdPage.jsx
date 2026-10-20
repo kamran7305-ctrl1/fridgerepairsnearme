@@ -161,7 +161,7 @@ export default function SydneyCbdPage() {
   usePageSeo({
     title: "Fridge Repairs Sydney CBD | Cafes, Offices & Apartments",
     description:
-      `Fridge and commercial refrigeration repairs in the Sydney CBD: Surry Hills, Pyrmont, Haymarket, Ultimo. ${callOutFee} call-out, fixed quote first.`,
+      `Fridge and commercial refrigeration repairs in the Sydney CBD: Surry Hills, Pyrmont, Haymarket, Ultimo. ${callOutFee} call-out, fixed quote first, ${warrantyPeriod} warranty.`,
     canonical: CANONICAL_URL,
     schema,
   });
