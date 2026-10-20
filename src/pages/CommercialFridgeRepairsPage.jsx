@@ -235,6 +235,7 @@ export default function CommercialFridgeRepairsPage() {
             </ul>
             <p style={{ marginTop: 14 }}>
               Looking for a specific type? See{" "}
+              <a href="/commercial-freezer-repairs-sydney/">commercial freezer repairs</a>,{" "}
               <a href="/display-fridge-repairs-sydney/">display, bar and mini fridge repairs</a>{" "}
               or <a href="/ice-maker-repairs-sydney/">ice maker repairs</a>.
             </p>

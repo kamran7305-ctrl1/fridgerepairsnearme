@@ -29,6 +29,7 @@ import MarrickvillePage from "./pages/MarrickvillePage";
 import ParramattaPage from "./pages/ParramattaPage";
 import StrathfieldPage from "./pages/StrathfieldPage";
 import CommercialFridgeRepairsPage from "./pages/CommercialFridgeRepairsPage";
+import CommercialFreezerRepairsPage from "./pages/CommercialFreezerRepairsPage";
 import ContactPage from "./pages/ContactPage";
 import BlogIndexPage from "./pages/BlogIndexPage";
 import BlogPostPage from "./pages/BlogPostPage";
@@ -66,6 +67,8 @@ export default function App() {
             <Route path="/domestic-fridge-repairs-sydney/" element={<DomesticFridgeRepairsPage />} />
             <Route path="/commercial-fridge-repairs-sydney" element={<CommercialFridgeRepairsPage />} />
             <Route path="/commercial-fridge-repairs-sydney/" element={<CommercialFridgeRepairsPage />} />
+            <Route path="/commercial-freezer-repairs-sydney" element={<CommercialFreezerRepairsPage />} />
+            <Route path="/commercial-freezer-repairs-sydney/" element={<CommercialFreezerRepairsPage />} />
             <Route path="/same-day-fridge-repair-sydney" element={<SameDayFridgeRepairPage />} />
             <Route path="/same-day-fridge-repair-sydney/" element={<SameDayFridgeRepairPage />} />
             <Route path="/wine-fridge-repairs-sydney" element={<WineFridgeRepairsPage />} />
