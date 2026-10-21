@@ -12,6 +12,7 @@ function known_pages() {
         ['path' => '/commercial-fridge-repairs-sydney/', 'label' => 'Commercial Fridge Repairs', 'changefreq' => 'weekly', 'priority' => '0.9'],
         ['path' => '/commercial-freezer-repairs-sydney/', 'label' => 'Commercial Freezer Repairs', 'changefreq' => 'weekly', 'priority' => '0.8'],
         ['path' => '/coolroom-repairs-sydney/', 'label' => 'Coolroom Repairs', 'changefreq' => 'weekly', 'priority' => '0.9'],
+        ['path' => '/freezer-repairs-sydney/', 'label' => 'Freezer Repairs', 'changefreq' => 'weekly', 'priority' => '0.9'],
         ['path' => '/same-day-fridge-repair-sydney/', 'label' => 'Same Day Fridge Repair', 'changefreq' => 'weekly', 'priority' => '0.9'],
         ['path' => '/wine-fridge-repairs-sydney/', 'label' => 'Wine Fridge Repairs', 'changefreq' => 'weekly', 'priority' => '0.8'],
         ['path' => '/display-fridge-repairs-sydney/', 'label' => 'Display Fridge Repairs', 'changefreq' => 'weekly', 'priority' => '0.8'],

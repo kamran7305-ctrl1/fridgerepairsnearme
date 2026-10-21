@@ -214,7 +214,7 @@ export default function CommercialFreezerRepairsPage() {
               condenser fan or the compressor's start parts. Same-day visits depend on the day's
               bookings, so call early. For fridges, see{" "}
               <a href="/commercial-fridge-repairs-sydney/">commercial refrigeration repairs</a>;
-              for walk-in rooms, see <a href="/coolroom-repairs-sydney/">coolroom repairs</a>.
+              for walk-in rooms, see <a href="/coolroom-repairs-sydney/">coolroom repairs</a> Home freezer? See <a href="/freezer-repairs-sydney/">freezer repairs</a>.
             </p>
           </div>
         </div>

@@ -31,6 +31,7 @@ import StrathfieldPage from "./pages/StrathfieldPage";
 import CommercialFridgeRepairsPage from "./pages/CommercialFridgeRepairsPage";
 import CommercialFreezerRepairsPage from "./pages/CommercialFreezerRepairsPage";
 import CoolroomRepairsPage from "./pages/CoolroomRepairsPage";
+import FreezerRepairsPage from "./pages/FreezerRepairsPage";
 import ContactPage from "./pages/ContactPage";
 import BlogIndexPage from "./pages/BlogIndexPage";
 import BlogPostPage from "./pages/BlogPostPage";
@@ -72,6 +73,8 @@ export default function App() {
             <Route path="/commercial-freezer-repairs-sydney/" element={<CommercialFreezerRepairsPage />} />
             <Route path="/coolroom-repairs-sydney" element={<CoolroomRepairsPage />} />
             <Route path="/coolroom-repairs-sydney/" element={<CoolroomRepairsPage />} />
+            <Route path="/freezer-repairs-sydney" element={<FreezerRepairsPage />} />
+            <Route path="/freezer-repairs-sydney/" element={<FreezerRepairsPage />} />
             <Route path="/same-day-fridge-repair-sydney" element={<SameDayFridgeRepairPage />} />
             <Route path="/same-day-fridge-repair-sydney/" element={<SameDayFridgeRepairPage />} />
             <Route path="/wine-fridge-repairs-sydney" element={<WineFridgeRepairsPage />} />
