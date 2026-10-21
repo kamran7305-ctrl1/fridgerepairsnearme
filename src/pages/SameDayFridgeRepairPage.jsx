@@ -405,7 +405,7 @@ export default function SameDayFridgeRepairPage() {
               No. Our call-out fee is {callOutFee} incl. GST whether your visit happens the same
               day or on a later one. If a visit outside standard hours is ever needed, we'll
               always confirm any extra cost with you before booking — never after.{" "}
-              <a href="/#cost">See typical Sydney repair prices by part →</a>
+              <a href="/fridge-repair-cost-sydney/">See typical Sydney repair prices by part →</a>
             </p>
           </div>
         </div>

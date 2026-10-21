@@ -427,7 +427,7 @@ export default function FridgeRepairServicesPage() {
             <p>
               Our call-out fee of {callOutFee} incl. GST is the same across our Sydney service
               area. After diagnosis you get a fixed quote before any work starts.{" "}
-              <a href="/#cost">See our fridge repair cost guide →</a>
+              <a href="/fridge-repair-cost-sydney/">See our fridge repair cost guide →</a>
             </p>
           </div>
         </div>

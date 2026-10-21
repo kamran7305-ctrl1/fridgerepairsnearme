@@ -434,7 +434,7 @@ export default function DomesticFridgeRepairsPage() {
             <p>
               Most household fridge repairs in Sydney cost a few hundred dollars, depending on
               the part and fridge type.{" "}
-              <a href="/#cost">See typical price ranges in our fridge repair cost guide →</a>{" "}
+              <a href="/fridge-repair-cost-sydney/">See typical price ranges in our fridge repair cost guide →</a>{" "}
               Our call-out is {callOutFee} incl. GST, and you get a fixed quote before any work.
             </p>
           </div>

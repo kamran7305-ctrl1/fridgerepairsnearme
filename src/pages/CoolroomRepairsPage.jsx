@@ -344,7 +344,7 @@ export default function CoolroomRepairsPage() {
               Our call-out is {callOutFee} incl. GST. You get a fixed quote after diagnosis and we
               only go ahead if you agree. Price depends on the fault and the part. For a general
               Sydney market guide (not our prices), see the{" "}
-              <a href="/#cost">fridge repair cost guide</a>.
+              <a href="/fridge-repair-cost-sydney/">fridge repair cost guide</a>.
             </p>
           </div>
         </div>

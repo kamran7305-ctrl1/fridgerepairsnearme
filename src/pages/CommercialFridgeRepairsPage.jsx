@@ -356,7 +356,7 @@ export default function CommercialFridgeRepairsPage() {
             </ul>
             <p style={{ marginTop: 14 }}>
               For a general Sydney market guide (not our prices), see the{" "}
-              <a href="/#cost">fridge repair cost guide</a>.
+              <a href="/fridge-repair-cost-sydney/">fridge repair cost guide</a>.
             </p>
           </div>
         </div>
