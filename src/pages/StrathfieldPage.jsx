@@ -53,7 +53,7 @@ const faultCards = [
   { symptom: "Water pooling under the fridge", check: "Blocked defrost drain, door seal and the water line behind the fridge", href: "/domestic-fridge-repairs-sydney/#symptoms" },
   { symptom: "Display flashing an error code", check: "Control board and temperature sensors, read against the model's fault codes", href: "/domestic-fridge-repairs-sydney/" },
   { symptom: "Garage fridge icing up through summer", check: "Door seal, defrost heater and whether the fridge is coping with the heat", href: "/domestic-fridge-repairs-sydney/" },
-  { symptom: "Fridge running all the time", check: "Condenser coil, fan blade and the compressor's start components", href: "/#regas" },
+  { symptom: "Fridge running all the time", check: "Condenser coil, fan blade and the compressor's start components", href: "/fridge-regas-sydney/" },
 ];
 
 const foodCards = [
@@ -418,7 +418,7 @@ export default function StrathfieldPage() {
           <p className="hub-suburbs__note">
             General Sydney market guide, not our prices, and prices change. Our call-out is{" "}
             {callOutFee} incl. GST and your exact price is quoted after diagnosis.{" "}
-            <a href="/#cost">See our fridge repair cost guide →</a>
+            <a href="/fridge-repair-cost-sydney/">See our fridge repair cost guide →</a>
           </p>
         </div>
       </section>

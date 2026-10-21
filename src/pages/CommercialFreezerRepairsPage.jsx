@@ -212,8 +212,9 @@ export default function CommercialFreezerRepairsPage() {
               fixed after diagnosis, and repairs carry a {warrantyPeriod} warranty on parts and
               labour. Most freezer faults come down to the defrost system, the door seal, a
               condenser fan or the compressor's start parts. Same-day visits depend on the day's
-              bookings, so call early. For fridges and coolrooms, see{" "}
-              <a href="/commercial-fridge-repairs-sydney/">commercial refrigeration repairs</a>.
+              bookings, so call early. For fridges, see{" "}
+              <a href="/commercial-fridge-repairs-sydney/">commercial refrigeration repairs</a>;
+              for walk-in rooms, see <a href="/coolroom-repairs-sydney/">coolroom repairs</a> Home freezer? See <a href="/freezer-repairs-sydney/">freezer repairs</a>.
             </p>
           </div>
         </div>
@@ -314,7 +315,7 @@ export default function CommercialFreezerRepairsPage() {
               Our call-out is {callOutFee} incl. GST. You get a fixed quote after diagnosis and we
               only go ahead if you agree. Price depends on the fault and the part. For a general
               Sydney market guide (not our prices), see the{" "}
-              <a href="/#cost">fridge repair cost guide</a>.
+              <a href="/fridge-repair-cost-sydney/">fridge repair cost guide</a>.
             </p>
           </div>
         </div>

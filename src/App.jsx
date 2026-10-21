@@ -30,6 +30,10 @@ import ParramattaPage from "./pages/ParramattaPage";
 import StrathfieldPage from "./pages/StrathfieldPage";
 import CommercialFridgeRepairsPage from "./pages/CommercialFridgeRepairsPage";
 import CommercialFreezerRepairsPage from "./pages/CommercialFreezerRepairsPage";
+import CoolroomRepairsPage from "./pages/CoolroomRepairsPage";
+import FreezerRepairsPage from "./pages/FreezerRepairsPage";
+import RegasPage from "./pages/RegasPage";
+import FridgeRepairCostPage from "./pages/FridgeRepairCostPage";
 import ContactPage from "./pages/ContactPage";
 import BlogIndexPage from "./pages/BlogIndexPage";
 import BlogPostPage from "./pages/BlogPostPage";
@@ -69,6 +73,14 @@ export default function App() {
             <Route path="/commercial-fridge-repairs-sydney/" element={<CommercialFridgeRepairsPage />} />
             <Route path="/commercial-freezer-repairs-sydney" element={<CommercialFreezerRepairsPage />} />
             <Route path="/commercial-freezer-repairs-sydney/" element={<CommercialFreezerRepairsPage />} />
+            <Route path="/coolroom-repairs-sydney" element={<CoolroomRepairsPage />} />
+            <Route path="/coolroom-repairs-sydney/" element={<CoolroomRepairsPage />} />
+            <Route path="/freezer-repairs-sydney" element={<FreezerRepairsPage />} />
+            <Route path="/freezer-repairs-sydney/" element={<FreezerRepairsPage />} />
+            <Route path="/fridge-regas-sydney" element={<RegasPage />} />
+            <Route path="/fridge-regas-sydney/" element={<RegasPage />} />
+            <Route path="/fridge-repair-cost-sydney" element={<FridgeRepairCostPage />} />
+            <Route path="/fridge-repair-cost-sydney/" element={<FridgeRepairCostPage />} />
             <Route path="/same-day-fridge-repair-sydney" element={<SameDayFridgeRepairPage />} />
             <Route path="/same-day-fridge-repair-sydney/" element={<SameDayFridgeRepairPage />} />
             <Route path="/wine-fridge-repairs-sydney" element={<WineFridgeRepairsPage />} />

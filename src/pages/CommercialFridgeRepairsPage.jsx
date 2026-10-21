@@ -236,6 +236,7 @@ export default function CommercialFridgeRepairsPage() {
             <p style={{ marginTop: 14 }}>
               Looking for a specific type? See{" "}
               <a href="/commercial-freezer-repairs-sydney/">commercial freezer repairs</a>,{" "}
+              <a href="/coolroom-repairs-sydney/">coolroom repairs</a>,{" "}
               <a href="/display-fridge-repairs-sydney/">display, bar and mini fridge repairs</a>{" "}
               or <a href="/ice-maker-repairs-sydney/">ice maker repairs</a>.
             </p>
@@ -291,7 +292,7 @@ export default function CommercialFridgeRepairsPage() {
             </table>
           </div>
           <p className="hub-suburbs__note">
-            Gas leak? See our <a href="/#regas">fridge regas</a> information.
+            Gas leak? See our <a href="/fridge-regas-sydney/">fridge regas</a> information.
           </p>
         </div>
       </section>
@@ -355,7 +356,7 @@ export default function CommercialFridgeRepairsPage() {
             </ul>
             <p style={{ marginTop: 14 }}>
               For a general Sydney market guide (not our prices), see the{" "}
-              <a href="/#cost">fridge repair cost guide</a>.
+              <a href="/fridge-repair-cost-sydney/">fridge repair cost guide</a>.
             </p>
           </div>
         </div>

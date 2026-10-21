@@ -412,7 +412,7 @@ export default function WineFridgeRepairsPage() {
           <p className="hub-suburbs__note">
             Note: general Sydney market guide, not our prices. Prices change over time. Our
             call-out is {callOutFee} incl. GST and your exact price is quoted after diagnosis.{" "}
-            <a href="/#cost">See our fridge repair cost guide →</a>
+            <a href="/fridge-repair-cost-sydney/">See our fridge repair cost guide →</a>
           </p>
         </div>
       </section>
@@ -434,7 +434,7 @@ export default function WineFridgeRepairsPage() {
 
           <p className="hub-suburbs__note">
             Gas leaks are the most common sealed-system problem. See our{" "}
-            <a href="/#regas">fridge regas and gas leak repairs</a>.
+            <a href="/fridge-regas-sydney/">fridge regas and gas leak repairs</a>.
           </p>
         </div>
       </section>

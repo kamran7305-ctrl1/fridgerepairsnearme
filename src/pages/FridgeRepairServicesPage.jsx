@@ -50,7 +50,7 @@ const hubServices = [
     icon: SnowflakeIcon,
     title: "Coolroom & Walk-In Freezer Repairs",
     text: "Fans, controllers, door seals, icing and condensing units.",
-    href: "/#commercial",
+    href: "/coolroom-repairs-sydney/",
   },
   {
     icon: FridgeIcon,
@@ -62,7 +62,7 @@ const hubServices = [
     icon: DropletIcon,
     title: "Fridge Regas & Gas Leak Repairs",
     text: "Leak detection, repair, evacuation and recharge by an ARCtick-licensed technician.",
-    href: "/#regas",
+    href: "/fridge-regas-sydney/",
   },
   {
     icon: AlertIcon,
@@ -427,7 +427,7 @@ export default function FridgeRepairServicesPage() {
             <p>
               Our call-out fee of {callOutFee} incl. GST is the same across our Sydney service
               area. After diagnosis you get a fixed quote before any work starts.{" "}
-              <a href="/#cost">See our fridge repair cost guide →</a>
+              <a href="/fridge-repair-cost-sydney/">See our fridge repair cost guide →</a>
             </p>
           </div>
         </div>
