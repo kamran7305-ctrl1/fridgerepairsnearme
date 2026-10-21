@@ -434,7 +434,7 @@ export default function WineFridgeRepairsPage() {
 
           <p className="hub-suburbs__note">
             Gas leaks are the most common sealed-system problem. See our{" "}
-            <a href="/#regas">fridge regas and gas leak repairs</a>.
+            <a href="/fridge-regas-sydney/">fridge regas and gas leak repairs</a>.
           </p>
         </div>
       </section>

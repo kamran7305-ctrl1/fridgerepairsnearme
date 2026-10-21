@@ -292,7 +292,7 @@ export default function CommercialFridgeRepairsPage() {
             </table>
           </div>
           <p className="hub-suburbs__note">
-            Gas leak? See our <a href="/#regas">fridge regas</a> information.
+            Gas leak? See our <a href="/fridge-regas-sydney/">fridge regas</a> information.
           </p>
         </div>
       </section>

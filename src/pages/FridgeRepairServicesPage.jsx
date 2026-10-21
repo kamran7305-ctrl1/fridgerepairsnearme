@@ -62,7 +62,7 @@ const hubServices = [
     icon: DropletIcon,
     title: "Fridge Regas & Gas Leak Repairs",
     text: "Leak detection, repair, evacuation and recharge by an ARCtick-licensed technician.",
-    href: "/#regas",
+    href: "/fridge-regas-sydney/",
   },
   {
     icon: AlertIcon,

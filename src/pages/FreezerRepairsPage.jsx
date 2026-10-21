@@ -262,7 +262,7 @@ export default function FreezerRepairsPage() {
             </table>
           </div>
           <p className="hub-suburbs__note">
-            Gas leak? See <a href="/#regas">fridge regas</a>.
+            Gas leak? See <a href="/fridge-regas-sydney/">fridge regas</a>.
           </p>
         </div>
       </section>

@@ -47,7 +47,7 @@ const problemRows = [
   { problem: "Fridge leaking water", cause: "Blocked defrost drain or damaged door seal", href: "/domestic-fridge-repairs-sydney/#symptoms", label: "Fridge leaking water" },
   { problem: "Freezer iced up or not freezing", cause: "Defrost heater, thermostat or fan fault", href: "/domestic-fridge-repairs-sydney/", label: "Freezer repairs" },
   { problem: "Noisy fridge", cause: "Fan blade or compressor mount issue", href: "/domestic-fridge-repairs-sydney/", label: "Domestic fridge repairs" },
-  { problem: "Gas leak or low refrigerant", cause: "A leak in the sealed system", href: "/#regas", label: "Fridge regas" },
+  { problem: "Gas leak or low refrigerant", cause: "A leak in the sealed system", href: "/fridge-regas-sydney/", label: "Fridge regas" },
   { problem: "Wine fridge faults", cause: "Sensor, fan or compressor", href: "/wine-fridge-repairs-sydney/", label: "Wine fridge repairs" },
 ];
 

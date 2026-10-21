@@ -71,7 +71,7 @@ const subFaults = [
     id: "gas-leak",
     title: "Gas Leaks and Low Refrigerant",
     text: "A fridge doesn't use up gas. If refrigerant is low, there's a leak that has to be found and repaired before regassing.",
-    link: { href: "/#regas", label: "See fridge regas and gas leak repairs" },
+    link: { href: "/fridge-regas-sydney/", label: "See fridge regas and gas leak repairs" },
   },
 ];
 

@@ -269,7 +269,7 @@ export default function SameDayFridgeRepairPage() {
           <p className="hub-suburbs__note">
             If a part must be ordered, we'll explain the options on the day and book the return
             visit once it arrives. For sealed-system work, see{" "}
-            <a href="/#regas">gas leak and regas repairs</a>.
+            <a href="/fridge-regas-sydney/">gas leak and regas repairs</a>.
           </p>
         </div>
       </section>
