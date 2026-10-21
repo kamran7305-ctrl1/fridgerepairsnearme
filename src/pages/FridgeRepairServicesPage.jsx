@@ -50,7 +50,7 @@ const hubServices = [
     icon: SnowflakeIcon,
     title: "Coolroom & Walk-In Freezer Repairs",
     text: "Fans, controllers, door seals, icing and condensing units.",
-    href: "/#commercial",
+    href: "/coolroom-repairs-sydney/",
   },
   {
     icon: FridgeIcon,
