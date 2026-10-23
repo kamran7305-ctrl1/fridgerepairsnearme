@@ -212,7 +212,8 @@ export default function FridgeRepairCostPage() {
           <p className="hub-suburbs__note">
             General Sydney market guide, not our prices. Prices change over time. Our call-out is{" "}
             {callOutFee} incl. GST and your exact price is quoted after diagnosis. For gas
-            leaks, see <a href="/fridge-regas-sydney/">fridge regas</a>.
+            leaks, see <a href="/fridge-regas-sydney/">fridge regas</a>; for worn seals, see{" "}
+            <a href="/fridge-door-seal-replacement-sydney/">door seal replacement</a>.
           </p>
         </div>
       </section>
