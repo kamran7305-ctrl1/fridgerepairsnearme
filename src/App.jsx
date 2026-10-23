@@ -35,6 +35,7 @@ import FreezerRepairsPage from "./pages/FreezerRepairsPage";
 import RegasPage from "./pages/RegasPage";
 import FridgeRepairCostPage from "./pages/FridgeRepairCostPage";
 import DoorSealReplacementPage from "./pages/DoorSealReplacementPage";
+import IceMachineRepairsPage from "./pages/IceMachineRepairsPage";
 import ContactPage from "./pages/ContactPage";
 import BlogIndexPage from "./pages/BlogIndexPage";
 import BlogPostPage from "./pages/BlogPostPage";
@@ -84,6 +85,8 @@ export default function App() {
             <Route path="/fridge-repair-cost-sydney/" element={<FridgeRepairCostPage />} />
             <Route path="/fridge-door-seal-replacement-sydney" element={<DoorSealReplacementPage />} />
             <Route path="/fridge-door-seal-replacement-sydney/" element={<DoorSealReplacementPage />} />
+            <Route path="/ice-machine-repairs-sydney" element={<IceMachineRepairsPage />} />
+            <Route path="/ice-machine-repairs-sydney/" element={<IceMachineRepairsPage />} />
             <Route path="/same-day-fridge-repair-sydney" element={<SameDayFridgeRepairPage />} />
             <Route path="/same-day-fridge-repair-sydney/" element={<SameDayFridgeRepairPage />} />
             <Route path="/wine-fridge-repairs-sydney" element={<WineFridgeRepairsPage />} />

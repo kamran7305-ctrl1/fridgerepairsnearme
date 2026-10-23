@@ -479,7 +479,8 @@ export default function IceMakerRepairsPage() {
               <a href="/fridge-repairs/">See all suburbs we service →</a>
             </p>
             <p>
-              Running a cafe or shop? See our{" "}
+              Running a cafe or bar? See our{" "}
+              <a href="/ice-machine-repairs-sydney/">commercial ice machine repairs</a>, or{" "}
               <a href="/#commercial">commercial fridge repairs</a> and{" "}
               <a href="/domestic-fridge-repairs-sydney/">domestic fridge repairs</a>.
             </p>

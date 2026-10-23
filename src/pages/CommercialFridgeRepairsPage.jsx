@@ -238,7 +238,8 @@ export default function CommercialFridgeRepairsPage() {
               <a href="/commercial-freezer-repairs-sydney/">commercial freezer repairs</a>,{" "}
               <a href="/coolroom-repairs-sydney/">coolroom repairs</a>,{" "}
               <a href="/display-fridge-repairs-sydney/">display, bar and mini fridge repairs</a>{" "}
-              or <a href="/ice-maker-repairs-sydney/">ice maker repairs</a>.
+              <a href="/ice-machine-repairs-sydney/">commercial ice machine repairs</a> or{" "}
+              <a href="/ice-maker-repairs-sydney/">fridge ice maker repairs</a>.
             </p>
           </div>
         </div>
