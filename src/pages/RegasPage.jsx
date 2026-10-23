@@ -179,7 +179,8 @@ export default function RegasPage() {
               recharge by weight, and every completed repair carries a {warrantyPeriod} warranty on
               parts and labour. The call-out is {callOutFee} and the quote is fixed after
               diagnosis. Fridge warm for another reason? See{" "}
-              <a href="/domestic-fridge-repairs-sydney/">domestic fridge repairs</a>.
+              <a href="/domestic-fridge-repairs-sydney/">domestic fridge repairs</a>, or{" "}
+              <a href="/fridge-compressor-repairs-sydney/">compressor repair</a> if the compressor is suspect.
             </p>
           </div>
         </div>
