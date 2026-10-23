@@ -262,7 +262,8 @@ export default function FreezerRepairsPage() {
             </table>
           </div>
           <p className="hub-suburbs__note">
-            Gas leak? See <a href="/fridge-regas-sydney/">fridge regas</a>.
+            Gas leak? See <a href="/fridge-regas-sydney/">fridge regas</a>. Worn lid or door seal?
+            See <a href="/fridge-door-seal-replacement-sydney/">door seal replacement</a>.
           </p>
         </div>
       </section>
