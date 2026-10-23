@@ -130,7 +130,7 @@ const schema = [
 export default function IceMachineRepairsPage() {
   usePageSeo({
     title: `Commercial Ice Machine Repair Sydney | ${callOutFee} Call-Out`,
-    description: `Commercial ice machine repair and servicing in Sydney: Ice-O-Matic, Hoshizaki, Scotsman and more for cafes, bars and restaurants. ${callOutFee} call-out, fixed quote first.`,
+    description: `Commercial ice machine repair and servicing in Sydney: Ice-O-Matic, Hoshizaki and Scotsman for cafes, bars and restaurants. ${callOutFee} call-out, fixed quote first.`,
     canonical: CANONICAL_URL,
     schema,
   });
