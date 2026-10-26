@@ -357,7 +357,7 @@ export default function EasternSuburbsPage() {
             ))}
           </div>
           <p className="hub-suburbs__note" style={{ textAlign: "center" }}>
-            <a href="/#brands">See all fridge brands we repair →</a>
+            <a href="/brands/">See all fridge brands we repair →</a>
           </p>
         </div>
       </section>
