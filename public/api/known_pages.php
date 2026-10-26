@@ -20,6 +20,7 @@ function known_pages() {
         ['path' => '/fridge-compressor-repairs-sydney/', 'label' => 'Fridge Compressor Repair', 'changefreq' => 'weekly', 'priority' => '0.7'],
         ['path' => '/brands/', 'label' => 'Brands We Repair', 'changefreq' => 'weekly', 'priority' => '0.7'],
         ['path' => '/brands/samsung-fridge-repairs/', 'label' => 'Samsung Fridge Repairs', 'changefreq' => 'weekly', 'priority' => '0.8'],
+        ['path' => '/brands/lg-fridge-repairs/', 'label' => 'LG Fridge Repairs', 'changefreq' => 'weekly', 'priority' => '0.8'],
         ['path' => '/same-day-fridge-repair-sydney/', 'label' => 'Same Day Fridge Repair', 'changefreq' => 'weekly', 'priority' => '0.9'],
         ['path' => '/wine-fridge-repairs-sydney/', 'label' => 'Wine Fridge Repairs', 'changefreq' => 'weekly', 'priority' => '0.8'],
         ['path' => '/display-fridge-repairs-sydney/', 'label' => 'Display Fridge Repairs', 'changefreq' => 'weekly', 'priority' => '0.8'],

@@ -39,6 +39,7 @@ import IceMachineRepairsPage from "./pages/IceMachineRepairsPage";
 import CompressorRepairsPage from "./pages/CompressorRepairsPage";
 import BrandsHubPage from "./pages/BrandsHubPage";
 import SamsungRepairsPage from "./pages/SamsungRepairsPage";
+import LgRepairsPage from "./pages/LgRepairsPage";
 import ContactPage from "./pages/ContactPage";
 import BlogIndexPage from "./pages/BlogIndexPage";
 import BlogPostPage from "./pages/BlogPostPage";
@@ -96,6 +97,8 @@ export default function App() {
             <Route path="/brands/" element={<BrandsHubPage />} />
             <Route path="/brands/samsung-fridge-repairs" element={<SamsungRepairsPage />} />
             <Route path="/brands/samsung-fridge-repairs/" element={<SamsungRepairsPage />} />
+            <Route path="/brands/lg-fridge-repairs" element={<LgRepairsPage />} />
+            <Route path="/brands/lg-fridge-repairs/" element={<LgRepairsPage />} />
             <Route path="/same-day-fridge-repair-sydney" element={<SameDayFridgeRepairPage />} />
             <Route path="/same-day-fridge-repair-sydney/" element={<SameDayFridgeRepairPage />} />
             <Route path="/wine-fridge-repairs-sydney" element={<WineFridgeRepairsPage />} />

@@ -217,7 +217,7 @@ export default function BrandsHubPage() {
             </table>
           </div>
           <p className="hub-suburbs__note">
-            Brand pages: <a href="/brands/samsung-fridge-repairs/">Samsung</a>. Not listed? Send the make
+            Brand pages: <a href="/brands/samsung-fridge-repairs/">Samsung</a>, <a href="/brands/lg-fridge-repairs/">LG</a>. Not listed? Send the make
             and model and we will check before booking. Related:{" "}
             <a href="/wine-fridge-repairs-sydney/">wine fridge repairs</a> and{" "}
             <a href="/commercial-fridge-repairs-sydney/">commercial refrigeration repairs</a>.
