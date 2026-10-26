@@ -358,7 +358,7 @@ export default function FridgeRepairServicesPage() {
           </div>
 
           <p className="brands__note">
-            <a href="/#brands">See full brand coverage &amp; commercial equipment →</a>
+            <a href="/brands/">See full brand coverage &amp; commercial equipment →</a>
           </p>
         </div>
       </section>

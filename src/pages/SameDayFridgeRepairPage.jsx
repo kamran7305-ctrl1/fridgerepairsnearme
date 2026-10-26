@@ -389,7 +389,7 @@ export default function SameDayFridgeRepairPage() {
               </div>
               <p style={{ color: "var(--slate-600)", fontSize: "0.9rem" }}>
                 Plus commercial brands such as Skope, Bromic and Williams.{" "}
-                <a href="/#brands">See all fridge brands we repair →</a>
+                <a href="/brands/">See all fridge brands we repair →</a>
               </p>
             </div>
           </div>

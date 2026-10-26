@@ -341,7 +341,7 @@ export default function DomesticFridgeRepairsPage() {
 
           <p className="hub-suburbs__note">
             We also repair {otherBrands.join(", ")} fridges.{" "}
-            <a href="/#brands">See all household fridge brands we repair →</a>
+            <a href="/brands/">See all household fridge brands we repair →</a>
           </p>
 
           <p className="hub-suburbs__note">
