@@ -38,6 +38,32 @@ for name in files:
     src = open(os.path.join(PAGES, name)).read()
     issues = []
 
+    # Brand pages are thin wrappers: their content lives in src/data/brandPages.js
+    if "BrandPageTemplate" in src:
+        data = open(os.path.join(ROOT, "src", "data", "brandPages.js")).read()
+        key = re.search(r"brandPages\.(\w+)", src).group(1)
+        block = data[data.index(f"  {key}: {{"):]
+        nxt = re.search(r"\n  \w+: \{", block[5:])
+        block = block[: nxt.start() + 5] if nxt else block
+        t = re.search(r'title:\s*"([^"]*)"', block)
+        d = re.search(r'description:\s*\n?\s*"([^"]*)"', block)
+        pth = re.search(r'path:\s*"([^"]*)"', block)
+        if not t or not 40 <= len(t.group(1)) <= 62:
+            issues.append(f"brand title length {len(t.group(1)) if t else 'missing'}")
+        if not d or not 125 <= len(d.group(1)) <= 158:
+            issues.append(f"brand description length {len(d.group(1)) if d else 'missing'}")
+        if pth and (f'path="{pth.group(1)}"' not in app or f"'{pth.group(1)}'" not in known):
+            issues.append(f"{pth.group(1)} missing in App.jsx or known_pages.php")
+        for word in BANNED:
+            if word in block.lower():
+                issues.append(f"contains banned word/claim: {word}")
+        if issues:
+            problems += len(issues)
+            print(name)
+            for i in issues:
+                print(f"  - {i}")
+        continue
+
     title = seo_field(src, "title")
     desc = seo_field(src, "description")
     if title is None:
